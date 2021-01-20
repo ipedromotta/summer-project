@@ -56,14 +56,23 @@ body{
 
 .busca input{
     background-color: #c3bfbc;
-    background-image: url(imagens/pesquisa.png);
-    background-repeat: no-repeat;
     padding: 6px;
     background-position: 84%;
     border-radius: 50px;
     border: 0px;
     width: 140px;
     height: 35px;
+    font-family: 'Open Sans', sans-serif;
+    color: #54524f;
+}
+
+.botao-pesquisa{
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: -50px;
+    position: absolute;
 }
 
 .topo-menu{
@@ -137,4 +146,116 @@ body{
 .baixo-topo{
     float: left;
     margin-top: -155px;
+}
+
+.texto-meiotopo{
+    text-align: center;
+    float: left;
+    margin-left: 350px;
+    margin-top: -70px;
+}
+
+.texto-meiotopo h1{
+    font-family: 'Open Sans', sans-serif;
+    color: #deb37e;
+    font-size: 30pt;
+}
+
+.texto-meiotopo p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 16pt;
+    color: #54524f;
+}
+
+.meiotopo{
+    margin-left: 155px;
+    position: absolute;
+    margin-top: 1100px;
+}
+
+.meiotopo img{
+    margin-right: 65px;
+}
+
+.sombra{
+    margin-top: 452px;
+    margin-left: -1376px;
+    position: absolute;
+}
+
+.txt-meiotop1{
+    position: absolute;
+    text-align: justify;
+    margin-top: -5px;
+    background-color: #7f7770;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 62px;
+    padding-right: 61px;
+}
+
+.txt-meiotop2{
+    position: absolute;
+    text-align: justify;
+    margin-left: 408px;
+    background-color: #7f7770;
+    color: white;
+    margin-top: -5px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 62px;
+    padding-right: 61px;
+}
+
+.txt-meiotop3{
+    position: absolute;
+    text-align: justify;
+    margin-left: 817px;
+    background-color: #7f7770;
+    color: white;
+    margin-top: -5px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 62px;
+    padding-right: 61px;
+}
+
+.txt-meiotop1 h1, .txt-meiotop2 h1, .txt-meiotop3 h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.txt-meiotop1 p, .txt-meiotop2 p, .txt-meiotop3 p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.botao-mostrarmais{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    letter-spacing: 3px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 463px;
+    background-color: #776c64;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 35px;
+}
+
+.botao-mostrarmais a{
+    text-decoration: none;
+    color: white;
+}
+
+.botao-mostrarmais:hover{
+    background-color: gray;
+    transition: .6s;
+}
+
+.botao-mostrarmais a:hover{
+    color: #deb37e;
+    transition: 0.5s;
 }
