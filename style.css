@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,400;1,700&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.corpo{
+    display: block;
+    width: 1140px;
+    margin: 10px auto 20px auto;
+    margin-right: 525px;
+}
+
+.menu{
+    display: block;
+    list-style: none;
+    margin-left: 660px;
+    position: absolute;
+    margin-top: 53px;
+}
+
+.menu li{
+    display: inline-block;
+    color: #54524f;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #54524f;
+}
+
+.menu a:hover{
+    color: #c3bfbc;
+    transition: 0.5s;
+}
+
+.logo{
+    display: block;
+    position: absolute;
+    margin-right: 20px;
+    margin-left: 90px;
+    margin-top: 35px;
+}
+
+.busca{
+    margin-left: 1225px;
+    position: absolute;
+    margin-top: 45px;
+}
+
+.busca input{
+    background-color: #c3bfbc;
+    background-image: url(imagens/pesquisa.png);
+    background-repeat: no-repeat;
+    padding: 6px;
+    background-position: 84%;
+    border-radius: 50px;
+    border: 0px;
+    width: 140px;
+    height: 35px;
+}
+
+.topo-menu{
+    margin-top: -30px;
+}
+
+.imagem-topo{
+    margin-top: -75px;
+    float: left;
+}
+
+.texto-topo{
+    font-family: 'Open Sans', sans-serif;
+    color: #deb37e;
+    font-size: 30pt;
+    float: left;
+    margin-top: -720px;
+    margin-left: 60px;
+}
+
+.texto-topo h2{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 20pt;
+    color: #54524f;
+    letter-spacing: 9px;
+    margin-top: -62px;
+}
+
+.texto-topo p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 16pt;
+    color: #54524f;
+    margin-top: 110px;
+}
+
+.botao-leia{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    color: #776c64;
+    float: left;
+    margin-top: -363px;
+    margin-left: 60px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.botao-leia:hover{
+    background-color: gray;
+    transition: 0.6s;
+}
+
+.botao-leia p{
+    margin-top: 5PX;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.botao-leia a{
+    text-decoration: none;
+    color: #776c64;
+}
+
+.botao-leia a:hover{
+    color: #deb37e;
+    transition: 0.5s;
+}
+
+.baixo-topo{
+    float: left;
+    margin-top: -155px;
+}
