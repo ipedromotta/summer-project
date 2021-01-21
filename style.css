@@ -259,3 +259,51 @@ body{
     color: #deb37e;
     transition: 0.5s;
 }
+
+.topo-meio{
+    margin-top: 600px;
+    margin-left: -155px;
+    margin-right: -61px;
+    background-color: #7f7770;
+}
+
+.topo-meio h1{
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    margin-top: -525px;
+    margin-left: 783px;
+    font-size: 34pt;
+    color: white;
+}
+
+.topo-meio p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 785px;
+    font-size: 20pt;
+    color: white;
+}
+
+.topo-meio a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    margin-top: 635px;
+    margin-left: 5px;
+    background-color: #e2a355;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+}
+
+.topo-meio a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #e2a355;
+    transition: .6s;
+}
