@@ -110,35 +110,22 @@ body{
     margin-top: 110px;
 }
 
-.botao-leia{
+.texto-topo a{
     font-family: 'Open Sans', sans-serif;
     font-size: 16pt;
     color: #776c64;
     float: left;
-    margin-top: -363px;
-    margin-left: 60px;
     background-color: white;
     border-radius: 20px;
-}
-
-.botao-leia:hover{
-    background-color: gray;
-    transition: 0.6s;
-}
-
-.botao-leia p{
-    margin-top: 5PX;
-    margin-bottom: 5px;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.botao-leia a{
     text-decoration: none;
-    color: #776c64;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: -165px;
 }
 
-.botao-leia a:hover{
+.texto-topo a:hover{
+    background-color: gray;
     color: #deb37e;
     transition: 0.5s;
 }
@@ -232,30 +219,25 @@ body{
     font-style: italic;
 }
 
-.botao-mostrarmais{
+.botao-mostrarmais a{
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     letter-spacing: 3px;
     position: absolute;
     margin-top: 400px;
-    margin-left: 463px;
+    margin-left: 460px;
     background-color: #776c64;
     padding-left: 35px;
     padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 35px;
-}
-
-.botao-mostrarmais a{
     text-decoration: none;
     color: white;
 }
 
-.botao-mostrarmais:hover{
-    background-color: gray;
-    transition: .6s;
-}
-
 .botao-mostrarmais a:hover{
+    background-color: gray;
     color: #deb37e;
     transition: 0.5s;
 }
