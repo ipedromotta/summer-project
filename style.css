@@ -289,3 +289,46 @@ body{
     color: #e2a355;
     transition: .6s;
 }
+
+.topo-meio2{
+    position: absolute;
+    margin-top: -4px;
+    background-color: #deb37e;
+}
+
+.topo-meio2 img{
+    margin-right: 1px;
+    margin-bottom: -4px;
+    margin-left: 718px;
+}
+
+.topo-meio2 h1{
+    margin-left: 80px;
+}
+
+.topo-meio2 p{
+    margin-left: 80px;
+    margin-right: 800px;
+}
+
+.topo-meio2 a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    margin-top: 635px;
+    margin-left: -1350px;
+    background-color: #e2a355;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+}
+
+.topo-meio2 a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #e2a355;
+    transition: .6s;
+}
