@@ -365,3 +365,35 @@ body{
     font-size: 35pt;
     
 }
+
+.meio-baixo #mid{
+    margin-top: -275px;
+    float: left;
+}
+
+.meio-baixo #baixo{
+    margin-top: -137px;
+    width: 1500px;
+}
+
+#texto-meiobaixo{
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    margin-top: -644px;
+    margin-left: 880px;
+    text-align: right;
+}
+
+#texto-meiobaixo h1{
+    color: #deb37e;
+    font-size: 60px;
+    margin-bottom: -15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+}
+
+#texto-meiobaixo h2{
+    color: #54524f;
+    font-size: 80px;
+    margin-top: -15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
+}
