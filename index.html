@@ -10,17 +10,19 @@
 </head>
 
 <body>
-    <div class="corpo">
-        <header class="cabecalho">
+    <section class="corpo"> 
+        <header class="cabecalho"> <!-- CABEÇALHO -->
             <div class="logo">
                 <img src="imagens/logo.png" alt="logo">
             </div>
-            <ul class="menu">
-                <li><a href="index.html">INICIO</a></li>
-                <li><a href="#">MENU</a></li>
-                <li><a href="#">SOBRE</a></li>
-                <li><a href="#">CONTATO</a></li>
-            </ul>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+            </nav>
             <div class="busca">
                 <input type="text">
                 <button class="botao-pesquisa"><img src="imagens/pesquisa.png" alt="botao-pesquisa"></button>
@@ -29,73 +31,91 @@
                 <img src="imagens/topo-menu.png" alt="topo-menu">
             </div>
         </header>
-        <div class="imagem-topo">
-            <img src="imagens/imagem-topo.png" alt="imagem-topo">
-        </div>
-        <div class="texto-topo">
-            <h1>É HORA <br>DE CAMINHAR <br></h1>
-            <h2>LOREMIPSUM DOLOR</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipi- <br>
-                sicing elit, sed do iusmod tempor incididunt ut <br>
-                labore et dolore magna.</p>
-            <a href="#">LEIA MAIS</a>
-        </div>
-        <div class="baixo-topo">
-            <img src="imagens/baixo-topo.png" alt="baixo-topo">
-        </div>
-        <div class="texto-meiotopo">
-            <h1>VAMOS LÁ</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio assumenda illum <br> nemo explicabo iusto voluptatem odit! Totam doloremque voluptate.</p>
-        </div>
-        <div class="meiotopo">
-            <img src="imagens/imagem-meiotopo1.png" alt="imagem-caminhada">
-            <div class="txt-meiotop1">
-                <h1>Lorem ipsum</h1>
-                <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing...</p>
+        <section> <!-- TOPO -->
+            <div class="imagem-topo">
+                <img src="imagens/imagem-topo.png" alt="imagem-topo">
             </div>
-            <img src="imagens/imagem-meiotopo2.png" alt="caminhada">
-            <div class="txt-meiotop2">
-                <h1>Lorem ipsum</h1>
-                <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing...</p>
-            </div>
-            <img src="imagens/img-meiotopo3.png" alt="caminhada">
-            <div class="txt-meiotop3">
-                <h1>Lorem ipsum</h1>
-                <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing...</p>
-            </div>
-            <img class="sombra" src="imagens/sombra-meiotopo.png" alt="sombra">
-            <div class="botao-mostrarmais">
-                <a href="#">MOSTRAR MAIS</a>
-            </div>
-            <div class="topo-meio">
-                <img src="imagens/imagem-baixotopo.png" alt="amigos-conversando-imagem">
-                <h1>Descontos de até 50% <br> EM TODAS AS EXCURSÕES</h1>
-                <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit, sed diam <br> nonummy nibh euismod tincidunt ut <br> laoreet dolore magna aliquam erat</p>
-                <a href="#">LEIA MAIS</a>
-            <div class="topo-meio2">
-                <img src="imagens/imagem-baixotopo2.png" alt="amigos abraçados">
-                <h1>Promoção de Janeiro: <br>Compre 1 e leve 1 grátis! </h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto autem, aut, dignissimos possimus quibusdam quae libero cupiditate nam quam vitae doloribus magni minus.</p>
+            <div class="texto-topo">
+                <h1>É HORA <br>DE CAMINHAR <br></h1>
+                <h2>LOREMIPSUM DOLOR</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipi- <br>
+                    sicing elit, sed do iusmod tempor incididunt ut <br>
+                    labore et dolore magna.</p>
                 <a href="#">LEIA MAIS</a>
             </div>
+            <div class="baixo-topo">
+                <img src="imagens/baixo-topo.png" alt="baixo-topo">
             </div>
+        </section>
+        <section> <!-- TOPO-MEIO ATÉ O COMEÇO DA SESSÃO MEIO -->
+            <div class="texto-meiotopo">
+                <h1>VAMOS LÁ</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio assumenda illum <br> nemo explicabo iusto voluptatem odit! Totam doloremque voluptate.</p>
             </div>
-        <div class="meio">
-                <img src="imagens/bordatopo-meio.png" alt="borda-cima" id="cima">
-                <h1>Caminhando nas montanhas</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi minima libero adipisci neque sit <br> excepturi quam eum, impedit doloribus aspernatur ab cupiditate, soluta officia totam facilis maiores <br> voluptatibus voluptatem repellendus.</p>
-                <img src="imagens/sombra-meiotopo.png" alt="sombra" id="sombra">
-        </div>
-        <div class="meio-baixo">
-            <img src="imagens/bordabaixo-meio.png" alt="borda-baixo">
-            <img id="mid" src="imagens/imagem-meio.png" alt="pessoa montanha">
-            <div id="texto-meiobaixo">
-                <h1>EXPLORE</h1>
-                <h2>O MUNDO</h2>
+            <div class="meiotopo">
+                <img src="imagens/imagem-meiotopo1.png" alt="imagem-caminhada">
+                <div class="txt-meiotop1">
+                    <h1>Lorem ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing...</p>
+                </div>
+                <img src="imagens/imagem-meiotopo2.png" alt="caminhada">
+                <div class="txt-meiotop2">
+                    <h1>Lorem ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing...</p>
+                </div>
+                <img src="imagens/img-meiotopo3.png" alt="caminhada">
+                <div class="txt-meiotop3">
+                    <h1>Lorem ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing...</p>
+                </div>
+                <img class="sombra" src="imagens/sombra-meiotopo.png" alt="sombra">
+                <div class="botao-mostrarmais">
+                    <a href="#">MOSTRAR MAIS</a>
+                </div>
+                <div class="topo-meio">
+                    <img src="imagens/imagem-baixotopo.png" alt="amigos-conversando-imagem">
+                    <h1>Descontos de até 50% <br> EM TODAS AS EXCURSÕES</h1>
+                    <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit, sed diam <br> nonummy nibh euismod tincidunt ut <br> laoreet dolore magna aliquam erat</p>
+                    <a href="#">LEIA MAIS</a>
+                <div class="topo-meio2">
+                    <img src="imagens/imagem-baixotopo2.png" alt="amigos abraçados">
+                    <h1>Promoção de Janeiro: <br>Compre 1 e leve 1 grátis! </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto autem, aut, dignissimos possimus quibusdam quae libero cupiditate nam quam vitae doloribus magni minus.</p>
+                    <a href="#">LEIA MAIS</a>
+                </div>
+                </div>
             </div>
-            <img id="baixo" src="imagens/bordabaixo-baixomeio.png" alt="borda baixo">
-        </div>
-    </div>
+        </section>
+        <section> <!--FINAL DA SESSÃO MEIO-->
+            <div class="meio">
+                    <img src="imagens/bordatopo-meio.png" alt="borda-cima" id="cima">
+                    <h1>Caminhando nas montanhas</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi minima libero adipisci neque sit <br> excepturi quam eum, impedit doloribus aspernatur ab cupiditate, soluta officia totam facilis maiores <br> voluptatibus voluptatem repellendus.</p>
+                    <img src="imagens/sombra-meiotopo.png" alt="sombra" id="sombra">
+            </div>
+        </section>
+        <section> <!-- MEIO BAIXO -->
+            <div class="meio-baixo">
+                <img src="imagens/bordabaixo-meio.png" alt="borda-baixo">
+                <img id="mid" src="imagens/imagem-meio.png" alt="pessoa montanha">
+                <div id="texto-meiobaixo">
+                    <h1>EXPLORE</h1>
+                    <h2>O MUNDO</h2>
+                </div>
+                <img id="baixo" src="imagens/bordabaixo-baixomeio.png" alt="borda baixo">
+            </div>
+        </section>
+        <section> <!-- BAIXO TOPO -->
+
+        </section>
+        <section> <!-- BAIXO -->
+
+        </section>
+        <footer> <!-- RODAPÉ -->
+
+        </footer>
+
+    </section>
 </body>
 
 </html>

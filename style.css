@@ -179,9 +179,9 @@ body{
     background-color: #7f7770;
     color: white;
     padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 62px;
-    padding-right: 61px;
+    padding-bottom: 120px;
+    padding-left: 107px;
+    padding-right: 106px;
 }
 
 .txt-meiotop2{
@@ -192,9 +192,9 @@ body{
     color: white;
     margin-top: -5px;
     padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 62px;
-    padding-right: 61px;
+    padding-bottom: 120px;
+    padding-left: 107px;
+    padding-right: 106px;
 }
 
 .txt-meiotop3{
@@ -205,9 +205,9 @@ body{
     color: white;
     margin-top: -5px;
     padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 62px;
-    padding-right: 61px;
+    padding-bottom: 120px;
+    padding-left: 107px;
+    padding-right: 106px;
 }
 
 .txt-meiotop1 h1, .txt-meiotop2 h1, .txt-meiotop3 h1{
@@ -218,6 +218,8 @@ body{
 .txt-meiotop1 p, .txt-meiotop2 p, .txt-meiotop3 p{
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
+    margin-left: -32px;
+    margin-top: -5px;
 }
 
 .botao-mostrarmais a{
