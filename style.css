@@ -99,7 +99,7 @@ body{
     font-size: 20pt;
     color: #54524f;
     letter-spacing: 9px;
-    margin-top: -62px;
+    margin-top: -50px;
 }
 
 .texto-topo p{
@@ -403,6 +403,7 @@ body{
 .topo-baixo img{
     margin-left: 883px;
     margin-top: 150px;
+    position: absolute;
 }
 
 .txt-baixo1 h1, .txt-baixo2 h1, .txt-baixo3 h1 {
@@ -423,13 +424,35 @@ body{
 }
 
 .txt-baixo1{
-    margin-left: 110px;
+    margin-left: 125px;
 }
 
 .txt-baixo2{
-    margin-left: 560px;
+    margin-left: 575px;
 }
 
 .txt-baixo3{
-    margin-left: 980px;
+    margin-left: 995px;
+}
+
+.cit p{
+    font-family: 'Open Sans', sans-serif;
+    color: #3f3f3f;
+    font-style: italic;
+    margin-left: 369px;
+    font-size: 15pt;
+    margin-top: 425px;
+}
+
+.cit h3{
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    color: #3f3f3f;
+    margin-left: 625px;
+    margin-top: 590px;
+}
+
+.cit img{
+    margin-left: 685px;
+    margin-top: 330px;
 }
