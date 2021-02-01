@@ -470,6 +470,7 @@ body{
 
 .baixo img#baixo{
     margin-top: 190px;
+    position: relative;
 }
 
 .baixo p{
@@ -524,4 +525,114 @@ body{
     background-color: #252525;
     color: #e2a355;
     transition: 0.6s;
+}
+
+footer{
+    background-color: #7f7770;
+    width: 1440px;
+    margin-top: -41px;
+    padding-bottom: 140px;
+    float: left;
+}
+
+footer h1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-style: italic;
+    margin-top: 200px;
+    margin-left: 90px;
+    font-size: 22pt;
+    float: left;
+}
+
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-style: italic;
+    margin-top: 250px;
+    margin-left: 90px;
+    font-size: 16pt;
+    float: left;
+    text-align: left;
+}
+
+.redes{
+    margin-top: 380px;
+    margin-left: 90px;
+    letter-spacing: 10px;
+}
+
+.menurodape{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-style: italic;
+    list-style: none;
+    padding-bottom: 5px;
+    margin-top: -230px;
+    margin-left: 600px;
+    position: absolute;
+}
+
+.menurodape a{
+    text-decoration: none;
+    color: white;
+}
+
+.menurodape a:hover{
+    color: #deb37e;
+    text-decoration: underline;
+}
+
+.menurodape li{
+    padding-bottom: 10px;
+}
+
+.menurodape2{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-style: italic;
+    list-style: none;
+    padding-bottom: 5px;
+    margin-top: -230px;
+    margin-left: 900px;
+    position: absolute;
+}
+
+.menurodape2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.menurodape2 a:hover{
+    color: #deb37e;
+    text-decoration: underline;
+}
+
+.menurodape2 li{
+    padding-bottom: 10px;
+}
+
+.menurodape3{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-style: italic;
+    list-style: none;
+    padding-bottom: 5px;
+    margin-top: -230px;
+    margin-left: 1150px;
+    position: absolute;
+}
+
+.menurodape3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.menurodape3 a:hover{
+    color: #deb37e;
+    text-decoration: underline;
+}
+
+.menurodape3 li{
+    padding-bottom: 10px;
 }
