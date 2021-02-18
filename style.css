@@ -64,6 +64,7 @@ body{
     height: 35px;
     font-family: 'Open Sans', sans-serif;
     color: #54524f;
+    outline: none;
 }
 
 .botao-pesquisa{
@@ -73,6 +74,7 @@ body{
     margin-top: 7px;
     margin-left: -50px;
     position: absolute;
+    outline: none;
 }
 
 .topo-menu{
@@ -503,6 +505,7 @@ body{
     border: 0px;
     font-family: 'Open Sans', sans-serif;
     color: #3f3f3f;
+    outline: none;
 }
 
 .baixo input#email:focus{
@@ -518,6 +521,7 @@ body{
     color: white;
     letter-spacing: 1.5px;
     margin-left: -130px;
+    outline: none;
 }
 
 .baixo input#botao:hover{
