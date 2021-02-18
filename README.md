@@ -1,2 +1,3 @@
 # summer-project
-um pequeno projeto.
+Um pequeno projeto de verão. JUST FOR FUN :smile: <br>
+:bug: Responsividade REMOVIDA!
